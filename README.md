@@ -61,33 +61,40 @@ greet("John")
 ## 4. Lists and Dictionaries
 
 ### Creating a list
+```python
 fruits = ["apple", "banana", "cherry"]
-
+```
 ### Accessing list elements
+```python
 print(fruits[0])   # prints "apple"
 print(fruits[-1])  # prints "cherry"
-
+```
 ### Adding elements to a list
+```python
 fruits.append("orange")
 fruits.insert(1, "pear")
-
+```
 ### Creating a dictionary
+```python
 person = {"name": "John", "age": 25, "is_student": True}
-
+```
 ### Accessing dictionary elements
+```python
 print(person["name"])    # prints "John"
 print(person.get("age")) # prints 25
-
+```
 ### Adding elements to a dictionary
+```python
 person["height"] = 1.75
 person.update({"weight": 70})
-
+```
 
 ## 5. File Handling
 
 ### Reading from a file
+```python
 with open("file.txt", "r") as f:
     contents = f.read()
-
+```
 
 ### This is a cheat sheet for Python that covers the most commonly used syntax and concepts. You can use this cheat sheet as a quick reference guide when working with Python.
