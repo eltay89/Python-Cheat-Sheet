@@ -1,4 +1,3 @@
-```python
 # Python Cheat Sheet
 
 ## Table of Contents
@@ -11,47 +10,53 @@
 ## 1. Variables and Data Types
 
 ### Creating variables
+```python
 name = "John"     # creates a variable 'name' with the value "John"
 age = 25          # creates a variable 'age' with the value 25
 height = 1.75     # creates a variable 'height' with the value 1.75
 is_student = True # creates a variable 'is_student' with the value True
-
+```
 ### Data types
+```python
 string = "Hello, World!" # creates a string variable
 integer = 42            # creates an integer variable
 float = 3.14            # creates a float variable
 boolean = True          # creates a boolean variable
-
-
+```
 ## 2. Control Structures
 
 ### If statement
+```python
 if x > 0:
     print("x is positive")
 elif x == 0:
     print("x is zero")
 else:
     print("x is negative")
-
+```
 ### For loop
+```python
 for i in range(10):
     print(i)
-
+```
 ### While loop
+```python
 while x < 10:
     print(x)
     x += 1
-
+```
 
 ## 3. Functions
 
 ### Defining a function
+```python
 def greet(name):
     print("Hello, " + name + "!")
-
+```
 ### Calling a function
+```python
 greet("John")
-
+```
 
 ## 4. Lists and Dictionaries
 
